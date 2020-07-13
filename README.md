@@ -1,6 +1,6 @@
 # fastlane metadata translator
 
-[fastlane](https://fastlane.tools/) is a great tool for iOS build and release automation. especially when you have multiply localizations.
+[fastlane](https://fastlane.tools/) is a great tool for iOS building and release automation. especially when you have multiple localizations.
 fastlane metadata translator is a tool to help you translate the metadata to other lanuages with Google Translate.
 
 ## Requirements:
