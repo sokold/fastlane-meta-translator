@@ -3,6 +3,8 @@
 [fastlane](https://fastlane.tools/) is a great tool for iOS building and release automation. especially when you have multiple localizations.
 fastlane metadata translator is a tool to help you translate the metadata to other lanuages with Google Translate.
 
+fastlane是用于iOS构建和发布自动化的好工具，特别是有多个本地化版本时。 fastlane metadata translator是一个帮助你使用Google Translate将元数据自动转换为其他语言的工具。
+
 ## Requirements:
 - install fastlane and make sure you download metadata from app connect. you should see a fastlane folder in your iOS project folder.
 - install Python3 and pip
