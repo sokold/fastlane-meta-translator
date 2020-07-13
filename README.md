@@ -18,12 +18,12 @@ the metadata in language folders should be translated and ready to upload to app
 
 here is how config.py looks like:
 ```
-#if language_is_preset is true, uses the languages defined in preset_langs,else it search the languages from fastlane/metadata directory.
+#if language_is_preset is true, uses the languages defined in preset_langs,else it searches the languages from fastlane/metadata directory.
 language_is_preset = True
 #language codes can be found here https://www.ibabbleon.com/iOS-Language-Codes-ISO-639.html
 preset_langs = ["en-US", "fr-FR", "de-DE", "zh-CN", "ko", "ja"]
 
-# if uses_existing_meta is False, all language metadata folder are removed first if any then create from the base_language folder by copying
+# if uses_existing_meta is False, all language metadata folders are removed first then create from the base_language folder by copying
 uses_existing_meta = False
 # use google translate to translate from base_language
 base_language = "en-US"
