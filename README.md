@@ -15,7 +15,8 @@ fastlane metadata translator is a tool to help you translate the metadata to oth
 the metadata in language folders should be translated and ready to upload to appstore.
 
 here is how config.py looks like:
->#if language_is_preset is true, uses the languages defined in preset_langs,else it search the languages from fastlane/metadata directory.
+```
+#if language_is_preset is true, uses the languages defined in preset_langs,else it search the languages from fastlane/metadata directory.
 language_is_preset = True
 #language codes can be found here https://www.ibabbleon.com/iOS-Language-Codes-ISO-639.html
 preset_langs = ["en-US", "fr-FR", "de-DE", "zh-CN", "ko", "ja"]
@@ -29,3 +30,4 @@ base_language = "en-US"
 metadata_to_translate = ['description.txt','keywords.txt']
 
 need_to_copy_screenshot = False
+```
